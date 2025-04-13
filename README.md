@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project, developed by **Team Crypto-Vanguard**, implements a custom rate-limiting SYN proxy firewall to detect and mitigate SYN flood Denial-of-Service (DoS) attacks. The firewall monitors incoming TCP SYN packets, identifies excessive requests from specific IP addresses, and dynamically blocks malicious sources using `iptables`. An auto-unblocking mechanism ensures legitimate users are not permanently locked out, making it adaptive and efficient.
+This projectimplements a custom rate-limiting SYN proxy firewall to detect and mitigate SYN flood Denial-of-Service (DoS) attacks. The firewall monitors incoming TCP SYN packets, identifies excessive requests from specific IP addresses, and dynamically blocks malicious sources using `iptables`. An auto-unblocking mechanism ensures legitimate users are not permanently locked out, making it adaptive and efficient.
 
 ## Motivation
 
