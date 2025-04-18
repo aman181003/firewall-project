@@ -8,6 +8,9 @@ This project implements a custom rate-limiting SYN proxy firewall to detect and 
 
 SYN flood attacks are a prevalent cyber threat that overwhelms servers with excessive TCP connection requests, disrupting normal operations. This project aims to provide a preventive mechanism by monitoring SYN packet rates per IP and port, setting thresholds to identify malicious behavior, and temporarily blocking offending IPs to protect server resources.
 
+## Demonstration Video
+https://youtu.be/irngcz3O-yY?feature=shared
+
 ## Features
 
 - **Real-Time Packet Sniffing**: Captures TCP packets using `Scapy` for immediate analysis.
